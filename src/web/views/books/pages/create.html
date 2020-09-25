@@ -1,0 +1,18 @@
+{% extends '@layouts/layout.html' %}
+
+{% block title %}list页面{% endblock %}
+
+{% block head %}
+{% parent %}
+<!-- aaacss -->
+{% endblock %}
+
+{% block content %}
+{% include "@components/banner/banner.html" %}
+<p>views下面的crate</p>
+{% include "@components/list/list.html" %}
+{% endblock %}
+
+{% block scripts %}
+<!-- aaajs -->
+{% endblock %}
