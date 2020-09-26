@@ -9,7 +9,7 @@
     "client:dev": "cross-env NODE_ENV=development webpack --mode=development",
     "client:prod": "cross-env NODE_ENV=production webpack mode=production",
     "api:docs": "jsoc",
-    "dev": "cross-env NODE_ENV=development nodemon server/app.js"
+    "dev": "cross-env NODE_ENV=development nodemon src/server/app.js"
   },
   "keywords": [],
   "author": "",
